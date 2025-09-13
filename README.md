@@ -12,6 +12,37 @@ This project analyzes the risk-return characteristics of major U.S. airline stoc
 - **Trading Activity**: Examine dollar volume trends and market participation
 - **Volatility Dynamics**: Identify periods of highest volatility and most volatile stocks
 
+## 🔍 Key Visualizations
+
+### 1. Risk-Return Analysis
+![Risk-Return Scatter Plot](risk_return_scatter.png)
+- **Risk-Return Scatter Plot**: Shows the relationship between volatility (risk) and total returns for each airline
+- **Key Insight**: Southwest Airlines (LUV) offers the best risk-adjusted returns with moderate volatility
+- **Analysis**: Higher risk doesn't necessarily translate to higher returns in this sector
+
+### 2. Return Distribution Analysis
+![Daily Returns Distribution](returns_distribution.png)
+![Returns Box Plot Comparison](returns_boxplot.png)
+- **Histogram Distribution**: Compares daily return patterns across all airlines
+- **Box Plot Comparison**: Shows volatility ranges and outliers for each ticker
+- **Key Insight**: Spirit Airlines (SAVE) shows the highest volatility and widest return distribution
+- **Analysis**: Southwest Airlines (LUV) has the most concentrated return distribution
+
+### 3. Market Relationships
+![Correlation Heatmap](correlation_heatmap.png)
+![Pairwise Scatter Plots](pairwise_scatter.png)
+- **Correlation Heatmap**: Visualizes how airline stocks move together
+- **Pairwise Scatter Plots**: Detailed relationship analysis between individual stocks
+- **Key Insight**: High correlations (0.6-0.8) indicate limited diversification benefits within the sector
+- **Analysis**: All airlines show strong positive correlations, suggesting sector-wide factors drive performance
+
+### 4. Performance Over Time
+![Cumulative Returns](cumulative_returns.png)
+- **Cumulative Returns Chart**: Shows performance evolution from 2016-2020
+- **COVID-19 Impact**: Clear visualization of March 2020 market crash affecting all airlines
+- **Key Insight**: Southwest Airlines maintained the most stable performance throughout the period
+- **Analysis**: All airlines experienced significant declines during market stress periods
+
 ## 📈 Key Findings
 
 ### 1. Risk-Return Profiles
@@ -113,37 +144,6 @@ airlineStocks_dA/
 ├── pairwise_scatter.png   # Pairwise relationships
 └── README.md              # This file
 ```
-
-## 🔍 Key Visualizations
-
-### 1. Risk-Return Analysis
-![Risk-Return Scatter Plot](risk_return_scatter.png)
-- **Risk-Return Scatter Plot**: Shows the relationship between volatility (risk) and total returns for each airline
-- **Key Insight**: Southwest Airlines (LUV) offers the best risk-adjusted returns with moderate volatility
-- **Analysis**: Higher risk doesn't necessarily translate to higher returns in this sector
-
-### 2. Return Distribution Analysis
-![Daily Returns Distribution](returns_distribution.png)
-![Returns Box Plot Comparison](returns_boxplot.png)
-- **Histogram Distribution**: Compares daily return patterns across all airlines
-- **Box Plot Comparison**: Shows volatility ranges and outliers for each ticker
-- **Key Insight**: Spirit Airlines (SAVE) shows the highest volatility and widest return distribution
-- **Analysis**: Southwest Airlines (LUV) has the most concentrated return distribution
-
-### 3. Market Relationships
-![Correlation Heatmap](correlation_heatmap.png)
-![Pairwise Scatter Plots](pairwise_scatter.png)
-- **Correlation Heatmap**: Visualizes how airline stocks move together
-- **Pairwise Scatter Plots**: Detailed relationship analysis between individual stocks
-- **Key Insight**: High correlations (0.6-0.8) indicate limited diversification benefits within the sector
-- **Analysis**: All airlines show strong positive correlations, suggesting sector-wide factors drive performance
-
-### 4. Performance Over Time
-![Cumulative Returns](cumulative_returns.png)
-- **Cumulative Returns Chart**: Shows performance evolution from 2016-2020
-- **COVID-19 Impact**: Clear visualization of March 2020 market crash affecting all airlines
-- **Key Insight**: Southwest Airlines maintained the most stable performance throughout the period
-- **Analysis**: All airlines experienced significant declines during market stress periods
 
 ## 📈 Performance Summary
 
