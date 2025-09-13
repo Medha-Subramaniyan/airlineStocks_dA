@@ -164,3 +164,5 @@ This analysis reveals that the airline sector exhibits high internal correlation
 This project is for educational and research purposes. Data sources are publicly available financial data.
 
 ---
+
+*This analysis provides insights into airline sector dynamics and should not be considered as investment advice. Always conduct thorough research and consult with financial professionals before making investment decisions.*
